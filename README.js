@@ -1,5 +1,3 @@
-# Skin-Checkr-firebase-function
-
 const { onRequest } = require("firebase-functions/v2/https");
 const { defineSecret } = require("firebase-functions/params");
 const fetch = require("node-fetch");
